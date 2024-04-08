@@ -1,0 +1,49 @@
+:root {
+    --vf:#7F9488;
+    --blanc:#F8F8F0;
+    --vc:#BACFAD;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+background-image: url(../image/leaf-8323899_1920.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh
+}
+
+nav.menu-nav ul li.btn {
+list-style-type: none;
+display: inline-block;
+justify-content: space-between;
+}
+nav.menu-nav ul li a{ 
+color: var(--blanc);
+text-decoration: none;
+}
+.highertitle {
+    color: var(--blanc);
+    font-family:century gothic;
+    width: 100vw;
+    text-align:center;
+    font-size: 50pt;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
